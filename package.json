@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy --branch=master --cname=danielkpak.com"
+    "deploy": "ng build --prod && angular-cli-ghpages --branch=master --cname=danielkpak.com"
   },
   "private": true,
   "dependencies": {
